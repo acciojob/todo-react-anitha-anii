@@ -1,1 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    
+    margin: 10px;
+}
 
+p{
+    display: inline;
+}
+.to-do{
+    margin-left: 20%;
+}
+input{
+    margin-left: 20px;
+}
+#div{
+    width:300px;
+    height: fit-content;
+         display: flex;
+    justify-content: space-between;
+    margin: 10px;
+   
+}
