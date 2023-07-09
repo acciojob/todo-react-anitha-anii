@@ -16,6 +16,9 @@ p{
 input{
     margin-left: 20px;
 }
+ul li{
+    list-style: none;
+}
 #div{
     width:300px;
     height: fit-content;

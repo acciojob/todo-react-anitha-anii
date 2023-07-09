@@ -31,10 +31,10 @@ const App = () => {
        <button onClick={display}>Add Todo</button>
       
       {list.map((item,index)=>(
-          <div key={index} id="div">
-          <p>{item}</p>
+          <ul key={index} id="div">
+          <li>{item}</li>
           <button onClick={()=>removed(index)}>Delete</button>
-          </div>
+          </ul>
 
     ))
       }
